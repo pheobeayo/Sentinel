@@ -2,7 +2,6 @@
 
 SENTINEL is a full-stack web application that uses Machine Learning and Natural Language Processing to detect fraudulent and suspicious conversations in real time. Paste any chat message, SMS, or email content and receive an instant verdict with a confidence score and red flag analysis.
 
-Built as a final-year project by **Ifeoluwa Ayo Sanni**.
 
 ---
 
