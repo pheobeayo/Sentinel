@@ -10,7 +10,7 @@ def create_app():
     app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///sentinel.db"
     app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 
-    CORS(app, origins=["http://localhost:3000", "https://sentinel-detector.vercel.app/"])
+    CORS(app, origins=["http://localhost:3000", "https://sentinel-detector.vercel.app"])
 
     db.init_app(app)
 
