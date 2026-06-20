@@ -36,7 +36,7 @@ def preprocess(text: str) -> str:
     tokens = word_tokenize(text)
     tokens = [_lemmatizer.lemmatize(t) for t in tokens if t not in _stop_words and len(t) > 1]
     return " ".join(tokens)
-S
+
 def extract_raw_features(text: str) -> dict:
     """Hand-crafted signal features used alongside TF-IDF."""
     text_lower = text.lower()
